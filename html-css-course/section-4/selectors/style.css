@@ -1,0 +1,16 @@
+* {
+  color: blue;
+}
+
+p {
+  background-color: bisque;
+}
+
+.highlight {
+  color: black;
+  font-size: 25px;
+}
+
+#main-heading {
+  background-color: brown;
+}

@@ -1,0 +1,32 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  color: darkslategray;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 38px;
+  color: blue;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 26px;
+  color: lightblue;
+  font-weight: 700;
+}
+
+address {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  font-size: 18px;
+  font-weight: bold;
+}

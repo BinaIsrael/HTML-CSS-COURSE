@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox-container {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  background-color: #b2b2b2;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.flexbox-item {
+  color: #000;
+  font-size: 30px;
+}
+
+.item-1 {
+  background-color: #ff0000;
+}
+
+.item-2 {
+  background-color: #2bfe39;
+}
+
+.item-3 {
+  background-color: #445dff;
+}

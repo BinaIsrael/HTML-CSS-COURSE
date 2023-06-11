@@ -1,0 +1,110 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Main Container */
+/* Defines styles for the main container */
+.main-container {
+  width: 700px;
+  margin: auto;
+}
+
+/* Main Content */
+/* Defines styles for the main content section */
+main {
+  margin-bottom: 20px;
+}
+
+/* Header */
+/* Styles the header element */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+/* Styles the main heading */
+h1 {
+  font-size: 32px;
+  color: #fff;
+  background-color: #da0e33;
+  width: 500px;
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Links */
+/* Styles the links */
+a:link {
+  background-color: #da0e33;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Styles the visited links */
+a:visited {
+  color: #ffffff;
+}
+
+/* Styles the active state of links */
+a:active {
+  color: #000;
+}
+
+/* Styles the hover state of links */
+a:hover {
+  background-color: #a2001e;
+}
+
+/* Product */
+/* Styles the product container */
+.product {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles the product image */
+.image {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* Styles the product heading */
+.product h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles the product description */
+.product p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Button */
+/* Styles the button */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles the hover state of the button */
+button:hover {
+  background-color: #45a049;
+}

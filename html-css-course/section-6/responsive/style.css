@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* rem = 16px */
+  font-size: 62.5%;
+  /* rem = 10px */
+  /* 16 * 0.625 = 10 */
+}
+.container {
+  background-color: #4b49d7;
+  max-width: 50rem;
+  height: 10rem;
+  color: #fff;
+}
+
+img {
+  width: 50%;
+}

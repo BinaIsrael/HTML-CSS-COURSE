@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* rem = 16px */
+  font-size: 62.5%;
+  /* rem = 10px */
+  /* 16 * 0.625 = 10 */
+}
+
+.container {
+  background-color: #4b49d7;
+  font-size: 6.4rem;
+  width: 80rem;
+  height: 10rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+img {
+  width: 50%;
+}
+
+/* em = 16px, rem = 16px */
+@media (max-width: 60em) {
+  /* .container {
+    width: 60rem;
+    font-size: 4.8rem;
+  } */
+  html {
+    font-size: 50%;
+    /* 1rem = 16px */
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /* Header */
+      * {
+        padding-top: 6px;
+      }
+      #title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      /* Main */
+      #main {
+        padding-top: 24px;
+      }
+
+      #section1,
+      #section2,
+      #section3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not semantic HTML</title>
+  </head>
+  <body>
+    <!--Almost only using div element-->
+    <div id="header">
+      <div>
+        <div id="title">Title</div>
+        <div id="nav">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div>
+        <div>
+          <div id="section1">Section 1</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            dolores?
+          </div>
+        </div>
+        <div>
+          <div id="section2">Section 2</div>
+          <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatem, provident. Consequuntur similique nemo expedita libero?
+            Voluptatem sint illum aliquid velit.
+          </div>
+        </div>
+        <div>
+          <div id="section3">Section 3</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugiat
+            neque nulla temporibus libero praesentium iste, magnam, nam facilis,
+            aspernatur sapiente ratione! Sapiente vitae maiores soluta odio
+            neque recusandae voluptatum.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div>
+        <a href="mailto:someone@example.com">Send email</a>
+        <div>All rights reserved</div>
+      </div>
+    </div>
+  </body>
+</html>

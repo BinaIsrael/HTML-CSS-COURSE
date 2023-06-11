@@ -1,0 +1,20 @@
+body {
+  height: 500vh;
+}
+.parent {
+}
+
+.child-1 {
+  position: fixed;
+  top: 0;
+  /* top: ;
+  bottom: ;
+  left: ;
+  right: ; */
+}
+
+.child-2 {
+}
+
+.child-3 {
+}

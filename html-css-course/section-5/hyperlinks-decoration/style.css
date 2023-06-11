@@ -1,0 +1,23 @@
+/* Hyperlinks decoration */
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: #f6f6f6;
+  background-color: #1e56a0;
+  font-size: 50px;
+  border-radius: 8px;
+  transition: font-size 1s;
+}
+/* visited link */
+a:visited {
+  color: #f6f6f6;
+}
+/* active link */
+a:active {
+  color: #d6e4f0;
+}
+/* mouse hover link */
+a:hover {
+  font-size: 70px;
+  background-color: #163172;
+}
